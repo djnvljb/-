@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대평고등학교</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #003366;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .banner {
+            width: 100%;
+            height: 300px;
+            background-image: url('school_banner.jpg'); /* 학교 배너 이미지 */
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            font-size: 24px;
+        }
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+        .intro-text {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+        .meal-menu {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+        .meal-menu h3 {
+            color: #0044cc;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>대평고등학교</h1>
+    </header>
+
+    <nav>
+        <a href="#school-info">학교 소개</a>
+        <a href="#calendar">학사 일정</a>
+        <a href="#notices">공지사항</a>
+        <a href="#meals">오늘의 급식</a>
+        <a href="#contact">연락처</a>
+    </nav>
+
+    <div class="banner">
+        <h2>학교 행사 및 공지사항</h2>
+    </div>
+
+    <div class="main-content">
+        <h3>학교 소개</h3>
+        <p class="intro-text">대평고등학교는 "소통과 공감으로 꿈을 펼치는 행복한 학교"를 목표로 학생들이 서로 소통하고, 공감하며, 각자의 꿈을 키워갈 수 있도록 지원하는 교육을 제공합니다. 우리 학교는 학생들이 진정으로 행복하고 의미 있는 학교 생활을 할 수 있도록 다양한 프로그램과 활동을 마련하고 있습니다. <br> 언제나 열린 마음으로 서로를 이해하고, 다양한 경험을 통해 더 나은 미래를 준비하는 대평고등학교입니다.</p>
+
+        <div id="meals" class="meal-menu">
+            <h3>오늘의 급식 메뉴</h3>
+            <ul>
+                <li>하이라이스</li>
+                <li>현미밥</li>
+                <li>요거트과일 샐러드</li>
+                <li>고구마 치즈 롤까스</li>
+                <li>돈까스 소스</li>
+                <li>깍두기</li>
+                <li>요구르트런</li>
+            </ul>
+        </div>
+
+        <h3>공지사항</h3>
+        <p>여기서 최신 공지사항을 확인할 수 있습니다.</p>
+
+        <h3>학사 일정</h3>
+        <p>학교의 학사 일정을 한눈에 볼 수 있습니다.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 대평고등학교 | 주소: 경기도 수원시 장안구 천천로 22번길 21(정자동)</p>
+    </footer>
+
+</body>
+</html>
